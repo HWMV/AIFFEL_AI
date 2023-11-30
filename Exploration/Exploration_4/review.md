@@ -23,6 +23,7 @@ review
 # 참고 링크 및 코드 개선
 
 5번 질문 참조 코드
+```
 # 노드와 다르게 Loss function 변경 (LSGAN)
 # Least Squares LF
 # 생성자의 Least Squares Loss Function
@@ -31,10 +32,13 @@ review
 
 def generator_loss(fake_output):
     return tf.reduce_mean(tf.square(fake_output - 1))
+```
 
+```
 # 판별자의 Least Squares Loss Function
 def discriminator_loss(real_output, fake_output):
     real_loss = tf.reduce_mean((real_output - 1) ** 2)
     fake_loss = tf.reduce_mean(fake_output ** 2)
     total_loss = (real_loss + fake_loss) * 0.5  # 평균을 내서 손실을 계산합니다.
     return total_loss
+```
