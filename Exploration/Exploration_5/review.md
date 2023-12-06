@@ -1,7 +1,7 @@
 review
 # AIFFEL Campus Online Code Peer Review Templete
 - 코더 : 최현우
-- 리뷰어 : 김영진
+- 리뷰어 : 조세창
 
 
 # PRT(Peer Review Template)
@@ -24,21 +24,33 @@ review
 
 5번 질문 참조 코드
 ```
-# 노드와 다르게 Loss function 변경 (LSGAN)
-# Least Squares LF
-# 생성자의 Least Squares Loss Function
-# def generator_loss(fake_output):
-#     return tf.reduce_mean((fake_output - 1) ** 2)
+# 각 과정별로 보기 편하게 파일을 나누고 이미지를 2장으로 시각화하였습니다.
+# 첫 번째 이미지 (포즈 추출 이미지)
+plt.subplot(1, 3, 1)
+plt.imshow(pose_image)
+plt.title("Pose Image")
+plt.axis("off")
 
-def generator_loss(fake_output):
-    return tf.reduce_mean(tf.square(fake_output - 1))
-```
+# 두 번째 이미지 (배경 윤곽선 이미지)
+plt.subplot(1, 3, 2)
+plt.imshow(background_image)
+plt.title("Background Image")
+plt.axis("off")
+
+plt.show()
+
 
 ```
-# 판별자의 Least Squares Loss Function
-def discriminator_loss(real_output, fake_output):
-    real_loss = tf.reduce_mean((real_output - 1) ** 2)
-    fake_loss = tf.reduce_mean(fake_output ** 2)
-    total_loss = (real_loss + fake_loss) * 0.5  # 평균을 내서 손실을 계산합니다.
-    return total_loss
+```
+# image를 추출할 때 각 인자별로 테스트를 하여 무엇이 변화하는지를 테스트하였습니다.
+image = pipe(
+    prompt,
+    images,
+    num_inference_steps=20,
+    generator=generator,
+    negative_prompt=negative_prompt,
+    controlnet_conditioning_scale=[1.5, 0.4],
+).images[0]
+
+
 ```
