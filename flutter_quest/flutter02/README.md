@@ -1,11 +1,7 @@
 
 # Result 
 
-Check this [demo](https://github.com/CAVASOL/flutter_script).
-
-<img align="center" src="./quest26.png" width="300px" />
-
-<img align="center" src="./quest26_print.png" width="700px" />
+![](./images/flutter_first_image.png)
 
 ### AIFFEL Campus Online Code Peer Review Templete
 
