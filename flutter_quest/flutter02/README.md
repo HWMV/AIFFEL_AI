@@ -3,6 +3,8 @@
 
 ![](./images/flutter_first_image.png)
 
+![](./images/flutter_log.jpeg)
+
 ### AIFFEL Campus Online Code Peer Review Templete
 
 - 코더 : 최현우
