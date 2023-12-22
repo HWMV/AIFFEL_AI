@@ -1,9 +1,7 @@
 
 # Result 
 
-<img src="./images/main_image.jpeg" width="50" height="50"/>
-
-![](./images/main_image.jpeg)
+<img src="./images/main_image.jpeg" width="300" height="500"/>
 
 ![](./images/one_screen.jpeg)
 
