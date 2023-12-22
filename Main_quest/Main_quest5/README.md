@@ -1,6 +1,8 @@
 
 # Result 
 
+<img src="./images/main_image.jpeg" width="50" height="50"/>
+
 ![](./images/main_image.jpeg)
 
 ![](./images/one_screen.jpeg)
