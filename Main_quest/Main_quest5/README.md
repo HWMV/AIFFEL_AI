@@ -3,7 +3,7 @@
 
 <img src="./images/main_image.jpeg" width="300" height="500"/>
 <img src="./images/one_screen.jpeg" width="300" height="500"/>
-<img src="./images/console.jpeg" width="700" height="500"/>
+<img src="./images/console.jpeg" width="500" height="200"/>
 
 ---
 
