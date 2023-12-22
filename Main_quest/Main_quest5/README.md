@@ -1,5 +1,9 @@
 
 # Result 
+# 앱 구동 영상 (구글 드라이브에서 다운 받아서 보셔야 할 것 같습니다. 파일명은 'gif.mp4' 입니다
+[구동 영상]([https://drive.google.com/drive/folders/1HDsTVp9dn-jcuScVTrwRp9eEw_hl3TrC?usp=drive_link])
+
+---
 
 <img src="./images/main_image.jpeg" width="300" height="500"/>
 <img src="./images/one_screen.jpeg" width="300" height="500"/>
