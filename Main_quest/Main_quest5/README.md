@@ -2,10 +2,8 @@
 # Result 
 
 <img src="./images/main_image.jpeg" width="300" height="500"/>
-
-![](./images/one_screen.jpeg)
-
-![](./images/console.jpeg)
+<img src="./images/one_screen.jpeg" width="300" height="500"/>
+<img src="./images/console.jpeg" width="300" height="500"/>
 
 ---
 
